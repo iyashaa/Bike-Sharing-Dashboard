@@ -3,7 +3,17 @@
 Dashboard interaktif berbasis Streamlit untuk menganalisis pola penyewaan sepeda berdasarkan waktu, cuaca, dan faktor lingkungan lainnya.
 
 ---
+# Deskripsi
 
+Project ini bertujuan untuk mengeksplorasi data bike sharing dengan menampilkan berbagai visualisasi seperti:
+
+* Tren penyewaan sepeda harian
+* Pola penggunaan berdasarkan jam
+* Pengaruh kondisi cuaca terhadap jumlah penyewaan
+* Hubungan antara suhu dan aktivitas penyewaan
+
+Dashboard ini membantu memahami perilaku pengguna serta faktor-faktor yang memengaruhi permintaan sepeda.
+---
 ## Setup Environment - Anaconda
 
 ```bash
