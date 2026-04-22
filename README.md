@@ -1,8 +1,8 @@
-# 🚲 Bike Sharing Dashboard
+# Bike Sharing Dashboard
 
 Dashboard interaktif berbasis Streamlit untuk menganalisis pola penyewaan sepeda berdasarkan waktu, kondisi cuaca, dan faktor lingkungan lainnya.
 
-## 📊 Deskripsi
+## Deskripsi
 
 Project ini bertujuan untuk mengeksplorasi data bike sharing dengan menampilkan berbagai visualisasi seperti:
 
@@ -13,7 +13,7 @@ Project ini bertujuan untuk mengeksplorasi data bike sharing dengan menampilkan 
 
 Dashboard ini membantu memahami perilaku pengguna serta faktor-faktor yang memengaruhi permintaan sepeda.
 
-## ⚙️ Requirements
+## Requirements
 
 Pastikan sudah menginstall library berikut:
 
@@ -29,7 +29,7 @@ Atau install sekaligus dengan:
 pip install streamlit pandas plotly
 ```
 
-## ▶️ Cara Menjalankan
+## Cara Menjalankan
 
 Jalankan perintah berikut di terminal:
 
@@ -37,7 +37,7 @@ Jalankan perintah berikut di terminal:
 streamlit run app.py
 ```
 
-## 📁 Struktur Project
+## Struktur Project
 
 ```
 bike-sharing-dashboard/
@@ -48,13 +48,13 @@ bike-sharing-dashboard/
 └── README.md
 ```
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 * KPI total penyewaan
 * Visualisasi interaktif dengan Plotly
 * Filter berdasarkan rentang tanggal
 * Analisis berdasarkan cuaca dan waktu
 
-## 📌 Catatan
+## Catatan
 
 Pastikan file `main_data.csv` berada di folder yang sama dengan `app.py`.
