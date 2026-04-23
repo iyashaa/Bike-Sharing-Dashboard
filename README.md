@@ -52,6 +52,9 @@ Library yang digunakan dalam project ini:
 streamlit
 pandas
 plotly
+numpy
+matplotlib
+seaborn
 ```
 
 ---
