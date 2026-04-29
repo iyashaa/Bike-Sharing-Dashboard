@@ -2,8 +2,6 @@
 
 An interactive dashboard built with Streamlit to analyze bike rental patterns based on time, weather, and other environmental factors.
 
----
-
 ### Description
 
 This project aims to explore bike sharing data through various visualizations, including:
@@ -15,8 +13,6 @@ This project aims to explore bike sharing data through various visualizations, i
 
 This dashboard helps uncover user behavior insights and identify key factors influencing bike rental demand.
 
----
-
 ### Environment Setup – Anaconda
 
 ```bash
@@ -24,8 +20,6 @@ conda create --name bike-ds python=3.9
 conda activate bike-ds
 pip install -r requirements.txt
 ```
-
----
 
 ### Environment Setup – Shell/Terminal
 
@@ -37,15 +31,11 @@ pipenv shell
 pip install -r requirements.txt
 ```
 
----
-
 ### Running the Streamlit App
 
 ```bash
 streamlit run dashboard.py
 ```
-
----
 
 ### Requirements
 
@@ -59,8 +49,6 @@ numpy
 matplotlib
 seaborn
 ```
-
----
 
 ### Project Structure
 
@@ -81,7 +69,6 @@ bike-sharing-dashboard
 └── README.md
 ```
 
----
 
 ### Dashboard Features
 
@@ -91,7 +78,6 @@ bike-sharing-dashboard
 * Temperature impact analysis on bike usage
 * KPI metrics for total users (casual & registered)
 
----
 
 ### Notes
 
