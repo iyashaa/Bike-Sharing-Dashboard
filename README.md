@@ -1,20 +1,23 @@
-# Bike Sharing Dashboard
+### Bike Sharing Dashboard
 
-Dashboard interaktif berbasis Streamlit untuk menganalisis pola penyewaan sepeda berdasarkan waktu, cuaca, dan faktor lingkungan lainnya.
+An interactive dashboard built with Streamlit to analyze bike rental patterns based on time, weather, and other environmental factors.
 
 ---
-# Deskripsi
 
-Project ini bertujuan untuk mengeksplorasi data bike sharing dengan menampilkan berbagai visualisasi seperti:
+### Description
 
-* Tren penyewaan sepeda harian
-* Pola penggunaan berdasarkan jam
-* Pengaruh kondisi cuaca terhadap jumlah penyewaan
-* Hubungan antara suhu dan aktivitas penyewaan
+This project aims to explore bike sharing data through various visualizations, including:
 
-Dashboard ini membantu memahami perilaku pengguna serta faktor-faktor yang memengaruhi permintaan sepeda.
+* Daily bike rental trends
+* Usage patterns by hour
+* The impact of weather conditions on rental demand
+* The relationship between temperature and rental activity
+
+This dashboard helps uncover user behavior insights and identify key factors influencing bike rental demand.
+
 ---
-## Setup Environment - Anaconda
+
+### Environment Setup – Anaconda
 
 ```bash
 conda create --name bike-ds python=3.9
@@ -24,7 +27,7 @@ pip install -r requirements.txt
 
 ---
 
-## Setup Environment - Shell/Terminal
+### Environment Setup – Shell/Terminal
 
 ```bash
 mkdir bike_sharing_dashboard
@@ -36,7 +39,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶Menjalankan Aplikasi Streamlit
+### Running the Streamlit App
 
 ```bash
 streamlit run dashboard.py
@@ -44,9 +47,9 @@ streamlit run dashboard.py
 
 ---
 
-## Requirements
+### Requirements
 
-Library yang digunakan dalam project ini:
+Libraries used in this project:
 
 ```txt
 streamlit
@@ -59,35 +62,37 @@ seaborn
 
 ---
 
-## Struktur Project
+### Project Structure
 
 ```
 bike-sharing-dashboard
 │
-|──── dashboard
-|    ├── dashboard.py
-|    └── main_data.csv
-|──── data
-|    ├── day.csv
-|    └── hour.csv
+├── dashboard
+│   ├── dashboard.py
+│   └── main_data.csv
+│
+├── data
+│   ├── day.csv
+│   └── hour.csv
+│
 ├── requirements.txt
-|── url.txt
-|── notebook.ipynb
+├── url.txt
+├── notebook.ipynb
 └── README.md
 ```
 
 ---
 
-## Fitur Dashboard
+### Dashboard Features
 
-* Visualisasi tren penyewaan sepeda harian
-* Analisis pola penyewaan berdasarkan jam
-* Perbandingan penyewaan berdasarkan kondisi cuaca
-* Analisis pengaruh suhu terhadap jumlah penyewaan
-* KPI total pengguna (casual & registered)
+* Daily bike rental trend visualization
+* Hourly rental pattern analysis
+* Comparison of rentals based on weather conditions
+* Temperature impact analysis on bike usage
+* KPI metrics for total users (casual & registered)
 
 ---
 
-## Catatan
+### Notes
 
-Pastikan file `main_data.csv` berada dalam direktori yang sama dengan `dashboard.py` agar aplikasi dapat berjalan dengan baik.
+Make sure the `main_data.csv` file is located in the same directory as `dashboard.py` to ensure the application runs properly.
