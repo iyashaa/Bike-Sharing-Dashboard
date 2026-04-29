@@ -82,3 +82,7 @@ bike-sharing-dashboard
 ### Notes
 
 Make sure the `main_data.csv` file is located in the same directory as `dashboard.py` to ensure the application runs properly.
+
+## Live Demo
+
+[View the Dashboard]([https://bike-sharing-dashboard-lcyyqlqzmjrntgsivsdvia.streamlit.app/](https://bike-sharing-dashboard-lcyyqlqzmjrntgsivsdvia.streamlit.app/))
